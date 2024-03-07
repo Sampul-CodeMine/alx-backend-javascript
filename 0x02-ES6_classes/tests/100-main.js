@@ -1,6 +1,9 @@
+/* eslint-disable import/extensions */
+/* eslint-disable jest/require-hook */
+
 import EVCar from '../100-evcar.js';
 
-const ec1 = new EVCar("Tesla", "Turbo", "Red", "250");
+const ec1 = new EVCar('Tesla', 'Turbo', 'Red', '250');
 console.log(ec1);
 
 const ec2 = ec1.cloneCar();

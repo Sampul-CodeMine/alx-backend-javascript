@@ -1,5 +1,8 @@
-import HolbertonClass from "../8-hbtn_class.js";
+/* eslint-disable import/extensions */
+/* eslint-disable jest/require-hook */
 
-const hc = new HolbertonClass(12, "Mezzanine")
+import HolbertonClass from '../8-hbtn_class.js';
+
+const hc = new HolbertonClass(12, 'Mezzanine');
 console.log(Number(hc));
 console.log(String(hc));

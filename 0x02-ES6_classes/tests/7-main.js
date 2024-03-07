@@ -1,4 +1,7 @@
-import Airport from "../7-airport.js";
+/* eslint-disable import/extensions */
+/* eslint-disable jest/require-hook */
+
+import Airport from '../7-airport.js';
 
 const airportSF = new Airport('San Francisco Airport', 'SFO');
 console.log(airportSF);

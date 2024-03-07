@@ -1,3 +1,6 @@
+/* eslint-disable import/extensions */
+/* eslint-disable jest/require-hook */
+
 import SkyHighBuilding from '../6-sky_high.js';
 
 const building = new SkyHighBuilding(140, 60);
